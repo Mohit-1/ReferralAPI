@@ -12,34 +12,34 @@ OS - Windows
 
 2. Install 'virtualenv' to create a virtual environment for our API
 
-`pip install virtualenv`
+   `pip install virtualenv`
 
 3. Setup the virtual environment
 
-`virtualenv sample_name_for_virtual_env`
+   `virtualenv sample_name_for_virtual_env`
 
 4. Activate the virtual environment
 
-`sample_name_for_virtual_env\Scripts\activate`
+   `sample_name_for_virtual_env\Scripts\activate`
 
 5. Install the dependencies
 
-`pip install -r requirements.txt`
+   `pip install -r requirements.txt`
 
 6. Set up the database (first change to the ReferralAPI directory)
 
-`python manage.py makemigrations`
+   `python manage.py makemigrations`
 
 
-`python manage.py migrate`
+   `python manage.py migrate`
 
 7. Create a superuser
 
-`python manage.py createsuperuser`
+   `python manage.py createsuperuser`
 
 8. Run the server (generally on localhost:8000)
 
-`python manage.py runserver`
+   `python manage.py runserver`
 
 ### API reference - 
 
