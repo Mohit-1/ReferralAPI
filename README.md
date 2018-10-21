@@ -44,27 +44,27 @@ OS - Windows
 
 ### API reference - 
 
-1. **End point** - api/referral_code?user_id=<value>
+**End point** - api/referral_code?user_id=
 
 **Query parameter(s)** - user_id
 
 **Methods allowed** - GET
 
-   Returns a unique 6 digit referral code for the user passed in the query parameter.
+       Returns a unique 6 digit referral code for the user passed in the query parameter.
 
 
 
-2. **End point** - api/referral?referral_code=<value>&referred_email=<value>
+**End point** - api/referral?referral_code=&referred_email=
 
 **Query parameter(s)** - referral_code, referred_email
 
 **Methods allowed** - POST, DELETE
 
-   Creates/Deletes a referral for the provided referral_code (from the referrer) and the referred_email (email of the recipient of the reference) after performing some basic checks.
+      Creates/Deletes a referral for the provided referral_code (from the referrer) and the referred_email (email of the recipient of the reference) after performing some basic checks.
 
 
 
-3. **End point** - api/conversion?referral_code=<value>&email=<value>
+**End point** - api/conversion?referral_code=&email=
 
 **Query parameter(s)** - referral_code, email
 
@@ -72,4 +72,4 @@ OS - Windows
 
 **Methods allowed** - POST
 
-   Converts the reference into an active user of the application.
+      Converts the reference into an active user of the application.
