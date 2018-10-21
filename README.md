@@ -44,7 +44,7 @@ OS - Windows
 
 ### API reference - 
 
-+ **End point** - api/referral_code?user_id=<value>
+1. **End point** - api/referral_code?user_id=<value>
 
 **Query parameter(s)** - user_id
 
@@ -54,7 +54,7 @@ OS - Windows
 
 
 
-+ **End point** - api/referral?referral_code=<value>&referred_email=<value>
+2. **End point** - api/referral?referral_code=<value>&referred_email=<value>
 
 **Query parameter(s)** - referral_code, referred_email
 
@@ -64,7 +64,7 @@ OS - Windows
 
 
 
-+ **End point** - api/conversion?referral_code=<value>&email=<value>
+3. **End point** - api/conversion?referral_code=<value>&email=<value>
 
 **Query parameter(s)** - referral_code, email
 
