@@ -60,7 +60,9 @@ OS - Windows
 
 **Methods allowed** - POST, DELETE
 
-      Creates/Deletes a referral for the provided referral_code (from the referrer) and the referred_email (email of the recipient of the reference) after performing some basic checks.
+      Creates/Deletes a referral for the provided referral_code (from the referrer) 
+
+      and the referred_email (email of the recipient of the reference) after performing some basic checks.
 
 
 
