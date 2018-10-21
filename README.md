@@ -8,36 +8,36 @@ OS - Windows
 
 ### Installation instructions - 
 
-Clone the repository
+1. Clone the repository
 
-Install 'virtualenv' to create a virtual environment for our API
+2. Install 'virtualenv' to create a virtual environment for our API
 
 `pip install virtualenv`
 
-Setup the virtual environment
+3. Setup the virtual environment
 
 `virtualenv sample_name_for_virtual_env`
 
-Activate the virtual environment
+4. Activate the virtual environment
 
 `sample_name_for_virtual_env\Scripts\activate`
 
-Install the dependencies
+5. Install the dependencies
 
 `pip install -r requirements.txt`
 
-Set up the database (first change to the ReferralAPI directory)
+6. Set up the database (first change to the ReferralAPI directory)
 
 `python manage.py makemigrations`
 
 
 `python manage.py migrate`
 
-Create a superuser
+7. Create a superuser
 
 `python manage.py createsuperuser`
 
-Run the server (generally on localhost:8000)
+8. Run the server (generally on localhost:8000)
 
 `python manage.py runserver`
 
