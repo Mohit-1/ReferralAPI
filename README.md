@@ -4,6 +4,7 @@ An API to implement referrals to users based on their email address.
 
 ### Pre-requisites - 
 Python 3.7.0 or higher
+
 OS - Windows
 
 ### Installation instructions - 
@@ -37,7 +38,7 @@ OS - Windows
 
    `python manage.py createsuperuser`
 
-8. Run the server (generally on localhost:8000)
+8. Run the server (on localhost:8000)
 
    `python manage.py runserver`
 
@@ -51,6 +52,8 @@ OS - Windows
 
 Returns a unique 6 digit referral code for the user passed in the query parameter.
 
+
+
 **End point** - api/referral?referral_code=<value>&referred_email=<value>
 
 **Query parameter(s)** - referral_code, referred_email
@@ -58,6 +61,8 @@ Returns a unique 6 digit referral code for the user passed in the query paramete
 **Methods allowed** - POST, DELETE
 
 Creates/Deletes a referral for the provided referral_code (from the referrer) and the referred_email (email of the recipient of the reference) after performing some basic checks.
+
+
 
 **End point** - api/conversion?referral_code=<value>&email=<value>
 
